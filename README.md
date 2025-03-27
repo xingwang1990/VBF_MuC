@@ -1,8 +1,4 @@
-====================================================================================================================================================================================
-==
-== VBFff.cpp
-==
-====================================================================================================================================================================================
+VBFff.cpp
 
 The cross sections for difermion production via VBF at 10 Tev muon colliders, up to the linear order in SMEFT Wilson coefficients (quadratic terms for cHq is also included).
 The dim-6 SMEFT operators considered are: 
