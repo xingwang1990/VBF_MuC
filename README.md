@@ -94,3 +94,42 @@ calc_xsec_eeh compute cross sections (in unit of fb) for eeh or tautauh final st
         10^\circ < \theta_e < 170^\circ     10^\circ < \theta_\tau < 170^\circ
         m_{ee} > 150 GeV     m_{\tau\tau} > 150 GeV
         m_{\rm miss} > 200 GeV
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+The cross sections for Higgs pair production via VBF at 10 Tev muon colliders, up to the linear order in SMEFT Wilson coefficients.
+
+The Higgs are assumed to decay into bb with fixed branching fraction 0.58.
+
+The dim-6 SMEFT operators considered are:
+
+$O_H  = \left(H^\dagger H\right)^3$
+
+$O_{H\Box} = \left(H^\dagger H\right)\Box \left(H^\dagger H\right)$
+  
+$O_{HD}  = \left(D^\mu H^\dagger H\right) \left(H^\dagger D_\mu H\right)$
+
+$O_{HW}  = \left(H^\dagger H\right) W^i_{\mu\nu} W^{i\mu\nu}$
+  
+$O_{HB}  = \left(H^\dagger H\right) B_{\mu\nu} B^{\mu\nu}$
+  
+$O_{HWB} = \left(H^\dagger \sigma^i H\right) W^i_{\mu\nu} B^{\mu\nu}$
+  
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+calc_xsec_hh compute cross sections (in unit of fb) for hh final states via VBF, with arguments:
+
+     i_channel (0-5) specify the final state: 0 - WW fusion to vvhh,  1 - ZZ fusion to mumuhh with at least one eta_mu < 6
+     
+     i_mhh (0-5) specify the hh invariant mass: 0 - [0, 400],  1 - [400, 700],  2 - [700, 1130],  3 - [1130, 2500],  4 - [2500, 5000],  5 - [5000, infinity]
+     
+     i_pth (0-5) specify the transverse momentum of the softer Higgs: 0 - [0, 100],  1 - [100, 300],  2 - [300, 500],  3 - [500, 700],  4 - [700, 1000],  5 - [1000, inf]
+     
+     cH, cHbox, cHD, cHW, cHB, cHWB are the corresponding Wilson coefficients for the SMEFT operators OH, OHbox, OHD, OHW, OHB, OHWB
+     
+     LambdaEFT is the SMEFT cutoff scale in unit of TeV.
+
+     Kinematic cuts are:
+        p_{T,b} > 10 GeV
+        10^\circ < \theta_b < 170^\circ
