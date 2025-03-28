@@ -1,0 +1,96 @@
+The cross sections for difermion production via VBF at 10 Tev muon colliders, up to the linear order in SMEFT Wilson coefficients (quadratic terms for cHq is also included).
+The dim-6 SMEFT operators considered are: 
+
+		1.  $OHq  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H$
+  
+		2.  O'Hq = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{q}_L\sigma^a\gamma^\mu q_L\right)
+  
+		3.  OHu  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{u}_R\gamma^\mu u_R\right)
+  
+		4.  OHd  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{d}_R\gamma^\mu d_R\right)
+  
+		5.  OHl  = \mathcal{O}_{H\ell} &=~& i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{\ell}_L\gamma^\mu \ell_L\right)
+  
+		6.  O'Hl = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{\ell}_L\sigma^a\gamma^\mu \ell_L\right)
+  
+		7.  OHe  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{e}_R\gamma^\mu e_R\right)
+  
+		8.  OuH  = H^\dagger H \bar{q}_L H \tilde{H} q_R
+  
+		9.  OuW  = (\bar{q} \sigma^{\mu\nu} u) \sigma^i \tilde{H} W^i_{\mu\nu}
+  
+		10. OuB  = (\bar{q} \sigma^{\mu\nu} u) \tilde{H} B_{\mu\nu}
+  
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+calc_xsec_qq compute cross sections (in unit of fb) for qq final states, with arguments:
+
+     i_channel (0-5) specify the final state flavors: 0 - uu,  1 - dd,  2 - ud,  3 - tt,  4 - bb,  5 - tb
+     
+     i_mqq (0-6) specify the qq invariant mass: 0 - [150, 300],  1 - [300, 500],  2 - [500, 900],  3 - [900, 1600],  4 - [1600, 2800],  5 - [2800, 5000],  6 - [5000, infinity]
+     
+     i_ptll (0-5) specify the transverse momentum of the qq system: 0 - [20, 60],  1 - [60, 100],  2 - [100, 140],  3 - [140, 200],  4 - [200, 400],  5 - [400, inf]  
+     
+     cHq, cpHq, cHu, cHd, cuH, cuW, cuB are the corresponding Wilson coefficients for the SMEFT operators OHq, O'Hq, OHu, OHd, OuH, OuW, OuB.
+     
+     LambdaEFT is the SMEFT cutoff scale in unit of TeV.
+
+     Kinematic cuts are:
+        p_{T,j} > 100 GeV
+        10^\circ < \theta_j < 170^\circ
+        m_{\rm miss} > 200 GeV
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+calc_xsec_qqh compute cross sections (in unit of fb) for qqh final states, with arguments:
+
+     i_channel (0-5) specify the final state flavors: 0 - uu,  1 - dd,  2 - ud,  3 - tt,  4 - bb,  5 - tb
+     
+     i_mqq (0-0) specify the qqh invariant mass: 0 - [150, inf]
+     
+     i_ptll (0-0) specify the transverse momentum of the qqh system: 0 - [20, inf]
+     
+     cHq, cpHq, cHu, cHd, cuH, cuW, cuB are the corresponding Wilson coefficients for the SMEFT operators OHq, O'Hq, OHu, OHd, OuH, OuW, OuB.
+     
+     LambdaEFT is the SMEFT cutoff scale in unit of TeV.
+
+     Kinematic cuts are:
+        p_{T,j} > 100 GeV
+        10^\circ < \theta_j < 170^\circ
+        m_{jj} > 150 GeV
+        m_{\rm miss} > 200 GeV
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+calc_xsec_ee compute cross sections (in unit of fb) for ee or tautau final states, with arguments:
+     i_channel (0-1) specify the final state flavors: 0 - ee,  1 - tautau
+     
+     i_mqq (0-6) specify the ee or tautau invariant mass: 0 - [150, 300],  1 - [300, 500],  2 - [500, 900],  3 - [900, 1600],  4 - [1600, 2800],  5 - [2800, 5000],  6 - [5000, infinity]
+     
+     i_ptll (0-5) specify the transverse momentum of the ee or tautau system: 0 - [20, 60],  1 - [60, 100],  2 - [100, 140],  3 - [140, 200],  4 - [200, 400],  5 - [400, inf]  
+     
+     cHl, cpHl, cHe are the corresponding Wilson coefficients for the SMEFT operators OHl, O'Hl, OHe
+     
+     LambdaEFT is the SMEFT cutoff scale in unit of TeV.
+
+     Kinematic cuts are:
+        p_{T,e} > 100 GeV    p_{T,\tau} > 100 GeV
+        10^\circ < \theta_e < 170^\circ     10^\circ < \theta_\tau < 170^\circ
+        m_{\rm miss} > 200 GeV
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+calc_xsec_eeh compute cross sections (in unit of fb) for eeh or tautauh final states, with arguments:
+
+     i_channel (0-1) specify the final state flavors: 0 - ee,  1 - tautau
+     
+     i_mqq (0-0) specify the eeh or tautauh invariant mass: 0 - [150, inf]
+     
+     i_ptll (0-0) specify the transverse momentum of the eeh or tautauh system: 0 - [20, inf]
+     
+     cHl, cpHl, cHe are the corresponding Wilson coefficients for the SMEFT operators OHl, O'Hl, OHe
+     
+     LambdaEFT is the SMEFT cutoff scale in unit of TeV.
+
+     Kinematic cuts are:
+        p_{T,e} > 100 GeV    p_{T,\tau} > 100 GeV
+        10^\circ < \theta_e < 170^\circ     10^\circ < \theta_\tau < 170^\circ
+        m_{ee} > 150 GeV     m_{\tau\tau} > 150 GeV
+        m_{\rm miss} > 200 GeV
