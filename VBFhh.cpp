@@ -9,7 +9,7 @@
 //		6.  OHWB = \left(H^\dagger \sigma^i H\right) W^i_{\mu\nu} B^{\mu\nu}
 //----------------------------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------------
-// calc_xsec_qq compute cross sections (in unit of fb) for qq final states, with arguments:
+// calc_xsec_hh compute cross sections (in unit of fb) for hh final states, with arguments:
 //      i_channel (0-5) specify the final state: 0 - WW fusion to vvhh,  1 - ZZ fusion to mumuhh with at least one eta_mu < 6
 //      i_mhh (0-5) specify the hh invariant mass: 0 - [0, 400],  1 - [400, 700],  2 - [700, 1130],  3 - [1130, 2500],  4 - [2500, 5000],  5 - [5000, infinity]
 //      i_pth (0-5) specify the transverse momentum of the softer Higgs: 0 - [0, 100],  1 - [100, 300],  2 - [300, 500],  3 - [500, 700],  4 - [700, 1000],  5 - [1000, inf]
