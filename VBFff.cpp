@@ -4,7 +4,7 @@
 //		2.  O'Hq = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{q}_L\sigma^a\gamma^\mu q_L\right)
 //		3.  OHu  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{u}_R\gamma^\mu u_R\right)
 //		4.  OHd  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{d}_R\gamma^\mu d_R\right)
-//		5.  OHl  = \mathcal{O}_{H\ell} &=~& i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{\ell}_L\gamma^\mu \ell_L\right)
+//		5.  OHl  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{\ell}_L\gamma^\mu \ell_L\right)
 //		6.  O'Hl = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{\ell}_L\sigma^a\gamma^\mu \ell_L\right)
 //		7.  OHe  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{e}_R\gamma^\mu e_R\right)
 //		8.  OuH  = H^\dagger H \bar{q}_L H \tilde{H} q_R
