@@ -7,7 +7,7 @@
 //		5.  OHl  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{\ell}_L\gamma^\mu \ell_L\right)
 //		6.  O'Hl = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{\ell}_L\sigma^a\gamma^\mu \ell_L\right)
 //		7.  OHe  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{e}_R\gamma^\mu e_R\right)
-//		8.  OuH  = H^\dagger H \bar{q}_L H \tilde{H} q_R
+//		8.  OuH  = H^\dagger H \bar{q}_L \tilde{H} q_R
 //		9.  OuW  = (\bar{q} \sigma^{\mu\nu} u) \sigma^i \tilde{H} W^i_{\mu\nu}
 //		10. OuB  = (\bar{q} \sigma^{\mu\nu} u) \tilde{H} B_{\mu\nu}
 //----------------------------------------------------------------------------------------------------------------------------
