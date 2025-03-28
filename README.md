@@ -15,7 +15,7 @@ $O_{H\ell}' = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right
   
 $O_{He}  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{e}_R\gamma^\mu e_R\right)$
   
-$O_{uH}  = H^\dagger H \bar{q}_L H \tilde{H} q_R$
+$O_{uH}  = H^\dagger H \bar{q}_L \tilde{H} q_R$
   
 $O_{uW}  = (\bar{q} \sigma^{\mu\nu} u) \sigma^i \tilde{H} W^i_{\mu\nu}$
   
