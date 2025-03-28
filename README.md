@@ -1,25 +1,25 @@
 The cross sections for difermion production via VBF at 10 Tev muon colliders, up to the linear order in SMEFT Wilson coefficients (quadratic terms for cHq is also included).
-The dim-6 SMEFT operators considered are $OHq  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H$: 
+The dim-6 SMEFT operators considered are: 
 
-		1.  $OHq  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{q}_L\gamma^\mu q_L\right)
+$O_{Hq}  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{q}_L\gamma^\mu q_L\right)$
   
-		2.  O'Hq = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{q}_L\sigma^a\gamma^\mu q_L\right)
+$O_{Hq}' = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{q}_L\sigma^a\gamma^\mu q_L\right)$
   
-		3.  OHu  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{u}_R\gamma^\mu u_R\right)
+$O_{Hu}  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{u}_R\gamma^\mu u_R\right)$
   
-		4.  OHd  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{d}_R\gamma^\mu d_R\right)
+$O_{Hd}  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{d}_R\gamma^\mu d_R\right)$
   
-		5.  OHl  = \mathcal{O}_{H\ell} &=~& i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{\ell}_L\gamma^\mu \ell_L\right)
+$O_{H\ell}  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{\ell}_L\gamma^\mu \ell_L\right)$
   
-		6.  O'Hl = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{\ell}_L\sigma^a\gamma^\mu \ell_L\right)
+$O_{H\ell}' = i \left(H^\dagger \sigma^a\overset{\leftrightarrow}{D}_\mu H\right) \left(\bar{\ell}_L\sigma^a\gamma^\mu \ell_L\right)$
   
-		7.  OHe  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{e}_R\gamma^\mu e_R\right)
+$O_{He}  = i \left(H^\dagger \overset{\leftrightarrow}{D}_\mu H \right)\left(\bar{e}_R\gamma^\mu e_R\right)$
   
-		8.  OuH  = H^\dagger H \bar{q}_L H \tilde{H} q_R
+$O_{uH}  = H^\dagger H \bar{q}_L H \tilde{H} q_R$
   
-		9.  OuW  = (\bar{q} \sigma^{\mu\nu} u) \sigma^i \tilde{H} W^i_{\mu\nu}
+$O_{uW}  = (\bar{q} \sigma^{\mu\nu} u) \sigma^i \tilde{H} W^i_{\mu\nu}$
   
-		10. OuB  = (\bar{q} \sigma^{\mu\nu} u) \tilde{H} B_{\mu\nu}
+$O_{uB}  = (\bar{q} \sigma^{\mu\nu} u) \tilde{H} B_{\mu\nu}$
   
 ---------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------
